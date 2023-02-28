@@ -1,0 +1,16 @@
+01 - configurou o _app com o title, viewport e div com container
+02 - adicionou o bootstrap
+03 - adicionou os terceiros (font awesome ) no _document.tsx
+04 - criou navbar e adicou no _app
+05 - criou duas paginas, categorias e lancamentos
+06 - instalamos o mssql
+07 - configuramos a conexao com o sql server, database/db.ts
+08 - criar as cotrollers
+09 - criar as apis (get e post)
+10 - configurou o html da pagina (table)
+11 - configurou o state com a variavel que representa a lista do banco de dados
+12 - usou o useEffect para executar no load da pagina, usando o LoadCategorias
+13 - O loadCategorias, fez o fetch
+
+passos de chamada de api.
+pagina => Api atraves do fetch => Usa o método de uma controller => Executar um método => acesar o database retornando
